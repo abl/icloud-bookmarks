@@ -1,4 +1,6 @@
 *.py[cod]
+.Python
+include
 
 # C extensions
 *.so
@@ -33,3 +35,6 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+
+# private work
+private
