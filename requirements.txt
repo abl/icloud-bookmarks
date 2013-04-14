@@ -1,0 +1,7 @@
+biplist==0.5
+httplib2==0.7.7
+pyDes==2.0.1
+six==1.2.0
+tinydav==0.7.3
+ujson==1.23
+wsgiref==0.1.2

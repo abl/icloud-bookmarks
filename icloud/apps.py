@@ -12,7 +12,12 @@
 # Depends on http://pypi.python.org/pypi/httplib2
 import httplib2
 
-import json, uuid, hashlib, sys
+try:
+    import ujson as json
+except ImportError:
+    import json
+
+import uuid, hashlib, sys
 
 # Available both for Python 2.x and 3.x (tested on 2.7, 2.6 and 3.3)
 if sys.version_info >= (3,0,0): from http.cookies import SimpleCookie
